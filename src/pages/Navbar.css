@@ -1,0 +1,96 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center;
+    padding: 0 2rem;
+    height: 70px;
+    background: #05f8d8; /* Dark Blue */
+    color: rgb(4, 4, 4);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    z-index: 1000;
+    flex-wrap: nowrap; /* Prevent items from wrapping to a new line */
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #0d0d0e; /* Light Blue */
+    margin-right: 1rem; /* Small space between logo and links */
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem; /* Space out the navbar links */
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: #020202; /* Grayish Blue */
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links li a:hover {
+    color: #ffffff;
+  }
+  
+  .action-btn {
+    padding: 0.5rem 1rem;
+    background: #139505; /* Light Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .action-btn:hover {
+    background: #111112; /* Darker Green */
+    transform: scale(1.05);
+  }
+  
+  .action-btn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Mobile View - Single Line Layout */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 0 1rem; /* Adjust padding for smaller screens */
+      justify-content: space-between; /* Maintain space between logo and links */
+    }
+  
+    .navbar-logo {
+      font-size: 1.2rem; /* Slightly smaller logo for mobile */
+      margin-right: 0.5rem; /* Small space between logo and links */
+    }
+  
+    .navbar-links {
+      display: flex;
+      gap: 1rem; /* Space between links */
+      margin-left: auto; /* Push links to the right */
+      justify-content: space-between; /* Distribute links evenly */
+    }
+  
+    .navbar-links li a {
+      font-size: 1rem; /* Adjust font size */
+    }
+  
+    .action-btn {
+      margin-left: 1rem; /* Space between links and action button */
+    }
+  }
+  

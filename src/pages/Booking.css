@@ -1,0 +1,123 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Booking Page */
+.booking-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Booking Container */
+.booking-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 1000px;
+  width: 100%;
+  gap: 20px;
+}
+
+/* Product Image */
+.product-image img {
+  width: 350px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+/* Booking Card */
+.booking-card {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Product Name */
+.product-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Product Description */
+.product-description {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Form Group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Input Field */
+.input-field {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  background-color: #eaf4ff;
+}
+
+.read-only {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Confirm Booking Button */
+.confirm-button {
+  padding: 15px;
+  background-color: #ff7043;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.confirm-button:hover {
+  background-color: #ff5722;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .booking-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .product-image img {
+    width: 100%;
+  }
+}

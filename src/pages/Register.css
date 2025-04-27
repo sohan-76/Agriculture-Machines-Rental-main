@@ -1,0 +1,65 @@
+.register-container {
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Translucent background for readability */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+  }
+.bg {
+   background-image: url('/images/background.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100vh; /* Full viewport height */
+   display: flex;
+   justify-content: center; /* Center the login form horizontally */
+   align-items: center; /* Center the login form vertically */
+}
+
+.register-form {
+    width: 100%; /* Take full width of the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .register-form label {
+    width: 100%; /* Align labels to the left */
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .register-form input {
+    width: 100%; /* Take full width of the container */
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+.register-button{
+    width: 100px;
+    background-color: green;
+}
+.redirect-login{
+    width: 30%; /* Full-width button */
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.redirect-login:hover{
+    background-color: aqua;
+}
