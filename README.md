@@ -1,8 +1,4 @@
-Here’s the README content in the format you requested:
-
----
-
-# React Project: Agriculture Machine Rental (Frontend Only)
+# React Project: Agriculture Machine Rental
 
 This is a React application for an Agriculture Machine Rental platform.
 
@@ -36,5 +32,3 @@ npm run build
 ### LOGIN DETAILS:
     UserName : admin
     Password : 1234
-Replace `<repository_url>` with the URL of your GitHub repository.  😊
-### LIVE DEMO : [Demo](https://agriculture-machines-rental.onrender.com)
